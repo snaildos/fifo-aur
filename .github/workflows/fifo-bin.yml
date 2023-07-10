@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Publish Fifo on AUR
+      - name: Publish Fifo on AUR repo
         uses: KSXGitHub/github-actions-deploy-aur@v2
         with:
           pkgname: fifo-bin
