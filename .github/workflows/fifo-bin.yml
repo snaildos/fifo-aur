@@ -11,7 +11,7 @@ jobs:
         uses: KSXGitHub/github-actions-deploy-aur@v2
         with:
           pkgname: fifo-bin
-          pkgbuild: ./PKGBUILD
+          pkgbuild: ./fifo-bin/PKGBUILD
           commit_username: snaildos
           commit_email: snaildos@snaildos.com
           ssh_private_key: ${{ secrets.AUR_SSH_PRIVATE_KEY }}
