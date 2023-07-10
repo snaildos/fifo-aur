@@ -12,7 +12,7 @@ jobs:
         with:
           pkgname: fifo-bin
           pkgbuild: ./PKGBUILD
-          commit_username: SnailDOS
+          commit_username: snaildos
           commit_email: snaildos@snaildos.com
           ssh_private_key: ${{ secrets.AUR_SSH_PRIVATE_KEY }}
           commit_message: Update AUR package
